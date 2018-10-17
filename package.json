@@ -3,13 +3,16 @@
   "main": "./lib/jkl",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/welldan97/jkl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "keyboard-layout": "^2.0.14"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.2"
   }
 }
