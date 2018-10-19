@@ -1,10 +1,10 @@
 {
-  "name": "jkl",
-  "main": "./lib/jkl",
+  "name": "helicopter",
+  "main": "./lib/helicopter",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Semantic and composable keybindings for Atom",
   "keywords": [],
-  "repository": "https://github.com/welldan97/jkl",
+  "repository": "https://github.com/welldan97/atom-helicopter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
