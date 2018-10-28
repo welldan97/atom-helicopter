@@ -1,7 +1,7 @@
 {
   "name": "helicopter",
   "main": "./lib/helicopter",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Semantic and composable keybindings for Atom",
   "keywords": [],
   "repository": "https://github.com/welldan97/atom-helicopter",
