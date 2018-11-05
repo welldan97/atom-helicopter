@@ -1,4 +1,4 @@
-# Helicopter
+# [Helicopter](https://github.com/welldan97/atom-helicopter)
 
 ![Keymap](/keymap.png)
 
@@ -39,7 +39,7 @@ You can see a few examples of resulting keybindings:
 
 The defined keymap works via regular key events, there is no need for entering mode, like in vim. Although, mode as an addition might be added in a future.
 
-You can see the whole keymap [**here**](/keymap.md).
+You can see the whole keymap [**here**](https://github.com/welldan97/atom-helicopter/blob/master/keymap.md).
 
 ### 2. Ergonomics & Semantics
 
@@ -47,7 +47,7 @@ All the keystrokes are defined with ergonomics in mind. The navigation keys lie 
 
 Each key has a semantics behind it. So you don't have to memorize all the weird keybindings, you just have to the remember base keys and next time you use it you will feel that it make sense. Many times you are going to guess the keybindings without ever using them.
 
-The whole list of user experience principles you can see [**here**](/ux_principles.md)
+The whole list of user experience principles you can see [**here**](https://github.com/welldan97/atom-helicopter/blob/master/ux_principles.md)
 
 ### 3. Different keyboard layouts support
 
@@ -57,7 +57,7 @@ From the day one we have a support for different keyboard layouts. No matter whi
 
 All the keybindings should be customizable. If the defaults don't make sense for you, you would be able to change it. If you want to have the search button on another key — you should be able to  do it. And of course nothing stops you to define your own keybindings in a usual way.
 
-You can see how the keybindings structured [**here**](/lib/keys.js). And [**here**](/lib/statements.js) is a resolving file for actions.
+You can see how the keybindings structured [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/keys.js). And [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/statements.js) is a resolving file for actions.
 
 ### 5. Scalability
 
@@ -82,7 +82,7 @@ Some of the keys support alternatives, and they can be addressed either via modi
 
 Keybinding version keys go in order of homerow: `hjkl:'`
 
-You can always consult to the list of all keybindings: [**here**](/keymap.md).
+You can always consult to the list of all keybindings: [**here**](https://github.com/welldan97/atom-helicopter/blob/master/keymap.md).
 
 
 ## Plans for the project
