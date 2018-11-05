@@ -1,7 +1,7 @@
 {
   "name": "helicopter",
   "main": "./lib/helicopter",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Helicopter is a keymap system with composability and ergonomics in mind. It provides a scalable way to define keybindgs, making them easy to remember and easy to use.",
   "keywords": [],
   "repository": "https://github.com/welldan97/atom-helicopter",
