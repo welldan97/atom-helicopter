@@ -2,7 +2,7 @@
   "name": "helicopter",
   "main": "./lib/helicopter",
   "version": "0.5.0",
-  "description": "Semantic and composable keybindings for Atom",
+  "description": "Helicopter is a keymap system with composability and ergonomics in mind. It provides a scalable way to define keybindgs, making them easy to remember and easy to use.",
   "keywords": [],
   "repository": "https://github.com/welldan97/atom-helicopter",
   "license": "MIT",
