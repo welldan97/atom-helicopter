@@ -12,12 +12,12 @@
 | <kbd>ctrl-alt-shift</kbd> | <kbd>*delete²*</kbd> |
 
 
-Helicopter is a keymap system with composability and ergonomics in mind. It provides a scalable way to define keybindgs, making them easy to remember and easy to use.
+Helicopter is a keymap system with composability and ergonomics in mind. It provides a scalable way to define keybindings, making them easy to remember and easy to use.
 
 
 ## Core Principles
 
-To make Helicopter system effective and powerful it is based on top of a few core principles.
+To make the Helicopter system effective and powerful it is based on top of a few core principles.
 
 ### 1. Composability
 
@@ -37,37 +37,37 @@ You can see a few examples of resulting keybindings:
 | <kbd>*pane*</kbd> + <kbd>*→*</kbd> = *focus right pane*                        | <kbd>ctrl-c</kbd> <kbd>ctrl-;</kbd>       | `window:focus-pane-on-right`      |
 | <kbd>*pane*</kbd> + <kbd>*→²*</kbd> = *split pane right*                       | <kbd>ctrl-c</kbd> <kbd>;</kbd>            | `pane:split-right`                |
 
-The defined keymap works via regular key events, there is no need for entering mode, like in vim. Although, mode as an addition might be added in a future.
+The defined keymap works via regular key events. There is no need for entering mode, like in vim. Although, mode as an addition might be added in a future.
 
 You can see the whole keymap [**here**](https://github.com/welldan97/atom-helicopter/blob/master/keymap.md).
 
 ### 2. Ergonomics & Semantics
 
-All the keystrokes are defined with ergonomics in mind. The navigation keys lie literaly at your fingertips. And the more common the action you want make the easier it is to access.
+All the keystrokes are defined with ergonomics in mind. The navigation keys lie literally at your fingertips. And the more common the action you want to make, the easier it is to access.
 
-Each key has a semantics behind it. So you don't have to memorize all the weird keybindings, you just have to the remember base keys and next time you use it you will feel that it make sense. Many times you are going to guess the keybindings without ever using them.
+Each key has a semantics behind it. So you don't have to memorize all the weird keybindings, you just have to remember the base keys and next time you use it you will feel that it make sense. Many times you are going to guess the keybindings without ever using them.
 
 The whole list of user experience principles you can see [**here**](https://github.com/welldan97/atom-helicopter/blob/master/ux_principles.md)
 
 ### 3. Different keyboard layouts support
 
-From the day one we have a support for different keyboard layouts. No matter which keyboard layout you use, the keys stay at the same place. Me myself using programmer dvorak, I see how it can be important to have support for different keyboards.
+From day one, we have supported different keyboard layouts. No matter which keyboard layout you use, the keys stay at the same place. Me myself using programmer dvorak, I see how it can be important to have support for different keyboards.
 
 ### 4. Customizability
 
-All the keybindings should be customizable. If the defaults don't make sense for you, you would be able to change it. If you want to have the search button on another key — you should be able to  do it. And of course nothing stops you to define your own keybindings in a usual way.
+All the keybindings should be customizable. If the defaults don't make sense for you, you would be able to change it. If you want to have the search button on another key — you should be able to do it. And of course nothing stops you to define your own keybindings in a usual way.
 
-You can see how the keybindings structured [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/keys.js). And [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/statements.js) is a resolving file for actions.
+You can see how the keybindings are structured [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/keys.js). And [**here**](https://github.com/welldan97/atom-helicopter/blob/master/lib/statements.js) is a resolving file for actions.
 
 ### 5. Scalability
 
-Helicopter is not just a keymap, it is actually a system to define one. It gives you an ability to add new *methods* and *arguments* easily.  There are still a lot of unbound keys left. So you can add support for your favorite packages without a problem.
+Helicopter is not just a keymap, it is actually a system to define one. It gives you an ability to add new *methods* and *arguments* easily. There are still a lot of unbound keys left. So you can add support for your favorite packages without a problem.
 
-Right now it can be used only on Atom. But it's in the plans to support other platform too.
+Right now it can be used only on Atom. But it's in the plans to support other platforms too.
 
 ## Usage
 
-There are two main concepts in Helicopter system: *methods* and *arguments*.
+There are two main concepts in the Helicopter system: *methods* and *arguments*.
 The combination of two results in a keybinding. *Method* is responsible for a context in which you want to use the action and the action itself. I.e. <kbd>*file*</kbd>, <kbd>*pane*</kbd> could be a context and <kbd>*delete*</kbd> could be an action. *Argument* can be used only once, and usually it defines the direction <kbd>*←*</kbd>(LEFT) or <kbd>*→*</kbd>(RIGHT), but it also can define a more abstract concept like <kbd>*SETUP*</kbd> or <kbd>*⤴*</kbd>(EXPORT).
 
 
@@ -82,12 +82,12 @@ Some of the keys support alternatives, and they can be addressed either via modi
 
 Keybinding version keys go in order of homerow: `hjkl:'`
 
-You can always consult to the list of all keybindings: [**here**](https://github.com/welldan97/atom-helicopter/blob/master/keymap.md).
+You can always consult the list of all keybindings: [**here**](https://github.com/welldan97/atom-helicopter/blob/master/keymap.md).
 
 
 ## Plans for the project
 
-Helicopter is still hugely work in progress. And many of the things could be implemented with the with your contribution.
+Helicopter is still hugely work in progress. And many of the things could be implemented with your contribution.
 
 1. There should be defined more actions and functions which atom is missing
 2. Make complete support for default atom keybindings
